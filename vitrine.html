@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+
+    <!-- les icones -->
+<!-- 
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      -->
+    <title>Lega moda</title>
+</head>
+<body>
+    <header class="header">
+        <div id="top-band">
+            <div class="responsive-menu"></div>
+          <div class="logo">
+              <img src="images/LegaModaLegaModa.png" alt="logo">
+          </div>
+          <div class="links">
+            <ul class="menu">
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="#story">Nouveautés</a></li>
+                <li><a href="index.html#popular-models">Top model</a></li>
+                <li><a href="#women">Femmes</a></li>
+                <li><a href="#man">Hommes</a></li>
+                <li><a href="#children">Enfants</a></li>
+                <li><a href="#">Vitrine</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+    <!-- Corpus -->
+
+    <main>
+        <!-- carousel -->
+        <div id="first">
+            <div class="carousel">
+                <div class="images">
+                    <div><img src="images/afro_art.jpg" alt="" class="img1"></div>
+                    <div><img src="images/afro_woman_1.jpg" alt="" class="img2"></div>
+                    <div><img src="images/afro_women_2.jpg" alt="" class="img3"></div>
+                    <div><img src="images/gaznail.jpg" alt="" class="img4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="explain">
+            <h1><a href="index.html">Lega <Span>Moda</Span></a></h1>
+        </div>
+
+        <!-- nouveautés -->
+        
+        <div id="story">
+            <div class="left">
+                <h1>Nouveautés</h1>
+            </div>
+            <div class="store">
+                <div class="last"><img src="images/lgmd_1.jpg" alt=""></div>
+                <div class="today"><img src="images/lgmd_2.jpg" alt=""></div>
+                <div class="after"><img src="images/lgmd_3.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <!-- for women -->
+
+        <section id="women">
+            <div class="women-vitrine">
+                <div class="women-left">
+                    <h1 class="description">La beauté au féminin</h1>
+                </div>
+                <div class="women-medium">
+                    <h1 class="description"><a href="#">Voir Plus</a></h1>
+                </div>
+                <div class="women-right">
+                    <img src="images/lgmd_6.jpg" alt="" class="position-4">
+                </div>
+            </div>
+        </section>
+
+        <!-- Men section -->
+
+        <section id="man">
+            <div class="man-vitrine">
+                <div class="man-left">
+                    <img src="images/manImg-1.jpeg" alt="" class="position-4">
+                </div>
+                <div class="man-medium">
+                    <h1 class="description"><a href="#">Voir Plus</a></h1>
+                </div>
+                <div class="man-right">
+                    <h1 class="description">La beauté au masculin</h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- Children -->
+
+        <section id="children">
+            <div class="children-left">
+                <img src="images/child-1.jpeg" alt="">
+            </div>
+            <div class="children-medium">
+                <img src="images/child-2.jpeg" alt="">
+            </div>
+            <div class="children-right">
+                <img src="images/child-3.jpeg" alt="">
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer>
+            <p>Design by <span>wk_dev</span> | Tous droits réservés</p>
+          </footer>
+    </main>
+
+    <!-- js -->
+
+    <script>
+        var toggle_menu = document.querySelector('.responsive-menu')
+        var menu = document.querySelector('.menu')
+        toggle_menu.onclick = function(){
+          toggle_menu.classList.toggle('active');
+          menu.classList.toggle('responsive');
+        }
+      </script>
+</body>
+</html>
